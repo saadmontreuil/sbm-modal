@@ -1,9 +1,9 @@
 import  {Modal} from 'sbm-modal';
-import React from 'react';
+import React, {useState} from 'react';
 import 'sbm-modal/dist/index.css';
 
 const App = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
     setIsOpen(true);
