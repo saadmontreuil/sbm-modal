@@ -1,10 +1,31 @@
-import React from 'react'
-
-import { ExampleComponent } from 'sbm-modal'
-import 'sbm-modal/dist/index.css'
+import  {Modal} from 'sbm-modal';
+import React from 'react';
+import 'sbm-modal/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  const [isOpen, setIsOpen] = React.useState(false);
 
-export default App
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  return (
+    <div>
+      <button onClick={openModal}>Open Modal</button>
+      <Modal
+        title="My Modal"
+        message="This is a modal dialog"
+        buttonText="Close"
+        isOpen={isOpen}
+        titleStyle={{color: 'red'}}
+        onClose={closeModal}
+      />
+    </div>
+  );
+};
+
+export default App;
