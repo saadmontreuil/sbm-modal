@@ -61,7 +61,7 @@ const App = () => {
 | onClose | function | Yes | - | A callback function to be executed when the user clicks the close button or clicks outside of the modal |
 | titleStyle | object | No | {} | Additional styles to be applied to the modal title |
 | messageStyle | object | No | {} | Additional styles to be applied to the modal message/body |
-| buttonStyle | string | No | '' | Additional classes to be applied to the modal button |
+| buttonStyle | object | No | {} | Additional classes to be applied to the modal button |
 | modalStyle | object | No | {} | Additional styles to be applied to the modal container |
 
 ## License
