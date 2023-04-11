@@ -46,7 +46,7 @@ const App = () => {
 };
 ```
 <div align="center">
-  <img src="./example.png" width="500px">
+  <img src="./example.png" width="250px">
 </div>
 
 
