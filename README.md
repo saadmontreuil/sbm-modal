@@ -12,6 +12,8 @@ npm install --save sbm-modal
 
 ## Usage
 
+To use the `Modal` component, you need to import it and its associated styles, and then include it in your React code:
+
 ```jsx
 import React, {useState} from 'react';
 import  {Modal} from 'sbm-modal';
@@ -45,10 +47,6 @@ const App = () => {
   );
 };
 ```
-<div align="center">
-  <img src="./example.png" width="250px">
-</div>
-
 
 ## Props (Properties) :
 
