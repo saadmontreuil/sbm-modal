@@ -36,7 +36,7 @@ const App = () => {
         isOpen={isOpen}
         titleStyle={{color: 'red'}}
         messageStyle={{fontStyle: 'italic'}}
-        modalStyle={{backgroundColor: 'gray', width : '250px' , height : '250px'}}
+        modalStyle={{backgroundColor: 'gray', width : '250px' }}
         onClose={closeModal}
       />
     </div>
